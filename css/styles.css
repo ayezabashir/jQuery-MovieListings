@@ -46,9 +46,6 @@ nav a {
   transform: translateX(-50%);
 }
 .well {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
   border-radius: 0.5rem;
   margin-bottom: 1rem;
 }
