@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  margin-top: 2rem;
+}
+.jumbotron {
+  margin-top: 2rem;
+  background: #232222;
+  padding: 2rem 4rem;
+  border-radius: 0.5rem;
+}
+#movies img,
+#movie img {
+  width: 100%;
+}
+#movies .col-md-3 .well {
+  position: relative;
+}
+#movies .col-md-3 .well .hidden {
+  display: none;
+}
+#movies .col-md-3 .well:hover .hidden {
+  display: block;
+  background: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  padding: 1rem 0;
+  z-index: 1;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.well {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+}
+#movies .col-md-3 img {
+  height: 100%;
+}
+@media screen and (min-width: 960px) {
+  #movies .col-md-3 .well {
+    height: 300px;
+  }
+}
