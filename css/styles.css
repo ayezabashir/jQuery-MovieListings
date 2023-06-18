@@ -5,6 +5,19 @@
 .container {
   margin-top: 2rem;
 }
+.container-fluid {
+  justify-content: flex-start !important;
+}
+svg {
+  fill: #ffffff;
+  margin-right: 0.5rem;
+  font-size: 18px;
+}
+nav a {
+  font-size: larger;
+  letter-spacing: 0.3rem;
+  text-transform: uppercase;
+}
 .jumbotron {
   margin-top: 2rem;
   background: #232222;
