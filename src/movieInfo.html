@@ -8,30 +8,17 @@
       href="https://bootswatch.com/5/cyborg/bootstrap.css"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="/css/styles.css" />
   </head>
   <body>
     <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
       <div class="container-fluid">
-        <img src="film-solid.svg" class="svg" />
+        <img src="/film-solid.svg" class="svg" />
         <a class="navbar-brand" href="#">Movie Listings</a>
       </div>
     </nav>
     <div class="container">
-      <div class="jumbotron">
-        <h3 class="text-center">Search Movies</h3>
-        <form id="searchForm">
-          <input
-            type="text"
-            class="form-control"
-            id="searchText"
-            placeholder="search movie here..."
-          />
-        </form>
-      </div>
-    </div>
-    <div class="container">
-      <div id="movies" class="row"></div>
+      <div id="movie" class="well"></div>
     </div>
 
     <script
@@ -40,6 +27,9 @@
       crossorigin="anonymous"
     ></script>
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-    <script src="js/main.js"></script>
+    <script src="/js/main.js"></script>
+    <script>
+      getMovie();
+    </script>
   </body>
 </html>

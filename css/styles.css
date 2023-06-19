@@ -8,10 +8,14 @@
 .container-fluid {
   justify-content: flex-start !important;
 }
-svg {
-  fill: #ffffff;
+img {
+  width: 20px;
+  height: 18px;
+  border-radius: 2px;
+  background: white;
+}
+.svg {
   margin-right: 0.5rem;
-  font-size: 18px;
 }
 nav a {
   font-size: larger;
